@@ -1,0 +1,40 @@
+.perfil-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.perfil-container thead tr {
+  background-color: #3182ce;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.perfil-container th {
+  padding: 12px 15px;
+}
+
+.perfil-container td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.perfil-container tbody tr:nth-child(even) {
+  background-color: #f3f4f6;
+}
+
+.perfil-container tbody tr:hover {
+  background-color: #e0e7ff;
+  transition: background-color 0.3s ease;
+}
+
+.perfil-container .total-creditos {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  text-align: right;
+}
