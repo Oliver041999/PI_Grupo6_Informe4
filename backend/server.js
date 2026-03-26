@@ -337,6 +337,7 @@ app.post("/api/usuarios/:registroAcademico/cursos-aprobados", (req, res) => {
   });
 });
 
+// Iniciar el servidor en el puerto especificado localhost:4000
 function startServer() {
   const port = Number(process.env.PORT || 4000);
   app.listen(port, () => {
