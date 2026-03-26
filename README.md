@@ -16,6 +16,31 @@ Este proyecto consiste en el desarrollo de una aplicación web tipo **cliente-se
 - Fomentar el uso de **repositorios** (GitHub) para la administración del código y el trabajo colaborativo.
 - Administrar información en un **gestor de base de datos** (MySQL).
 
+## Tecnologías Utilizadas
+
+| Capa          | Tecnología                          |
+|---------------|-------------------------------------|
+| **Frontend**  | React.js (o Angular, según tu grupo) |
+| **Backend**   | Node.js + Express (REST API)        |
+| **Base de Datos** | MySQL (local o en la nube)        |
+| **Control de Versiones** | Git + GitHub                |
+
+
+## Funcionalidades Principales
+
+### Autenticación de Usuarios
+- Registro de nuevos usuarios (Registro Académico, nombres, apellidos, correo, contraseña).
+- Inicio de sesión con credenciales.
+- Recuperación de contraseña mediante validación de Registro Académico y correo.
+
+### Pantalla Principal (Feed)
+- Muestra todas las publicaciones ordenadas por fecha.
+- Filtros disponibles:
+  - Por curso.
+  - Por catedrático.
+  - Por nombre del curso.
+  - Por nombre del catedrático.
+
 
 ## Integrantes
 
