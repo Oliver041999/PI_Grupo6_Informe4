@@ -40,6 +40,44 @@ Este proyecto consiste en el desarrollo de una aplicación web tipo **cliente-se
   - Por catedrático.
   - Por nombre del curso.
   - Por nombre del catedrático.
+ 
+
+### Gestión de Publicaciones
+- Crear publicaciones sobre un **catedrático** o un **curso**.
+- Cada publicación contiene:
+  - Usuario autor.
+  - Curso o catedrático asociado.
+  - Mensaje.
+  - Fecha de creación.
+
+
+### Comentarios
+- Cada publicación permite agregar comentarios, para que más estudiantes puedan aportar su opinión.
+
+
+### Perfil de Usuario
+- Ver perfil propio o de otros usuarios mediante búsqueda por Registro Académnico.
+- En el perfil propio se puede editar la información personal (excepto el Registro Académico).
+- **Cursos Aprobados**:
+  - Visualización de cursos aprobados y créditos totales.
+  - Solo el usuario autenticado puede administrar (agregar/eliminar) sus propios cursos aprobados.
+
+
+## Arquitectura del Proyecto
+
+El sistema sigue una arquitectura **cliente-servidor**:
+
+1. **Cliente**: Aplicación SPA que consume los endpoints de la API REST.
+2. **Servidor**: API REST construida con Node.js que maneja la lógica de negocio y la comunicación con la base de datos.
+3. **Base de Datos**: MySQL para almacenar usuarios, publicaciones, comentarios, cursos, catedráticos y relación con cursos aprobados.
+
+
+## Instalación y Ejecución Local
+
+### Prerrequisitos
+- Node.js (v14 o superior)
+- MySQL (v8 o superior)
+- Git
 
 
 ## Integrantes
