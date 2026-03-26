@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS practica_web;
 CREATE DATABASE IF NOT EXISTS practica_web;
 USE practica_web;
 
-/* Tabla para almacenar los usuarios */
+
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     registro_academico VARCHAR(20) UNIQUE NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE usuarios (
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-/* Tabla para almacenar los cursos */
+
 
 CREATE TABLE cursos (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -21,14 +21,14 @@ CREATE TABLE cursos (
     creditos INT NOT NULL
 );
 
-/* Tabla para almacenar los catedráticos */
+
 
 CREATE TABLE catedraticos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL
 );
 
-/* Tabla para almacenar las publicaciones */
+
 
 CREATE TABLE publicaciones (
     id INT AUTO_INCREMENT PRIMARY KEY,

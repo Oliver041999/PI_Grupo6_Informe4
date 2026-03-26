@@ -16,6 +16,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/crear-publicacion" element={<CrearPublicacion />} />
         <Route path="/perfil/:registroAcademico" element={<Perfil />} />
+        <Route path="*" element={<LoginPage />} />
       </Routes>
     </Router>
   );

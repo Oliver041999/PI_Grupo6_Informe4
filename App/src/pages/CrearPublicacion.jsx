@@ -77,7 +77,7 @@ export default function CrearPublicacion() {
   };
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen flex justify-center items-start">
+    <div className="crear-publicacion-page p-6 bg-gray-100 min-h-screen flex justify-center items-start">
       <div className="bg-white p-8 rounded-2xl shadow-lg w-96">
         <h1 className="text-2xl font-bold text-center mb-6">Crear Publicación</h1>
 
